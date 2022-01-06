@@ -5,13 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Semantic HTML</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
 <body>
   <header>
-    <nav>
-      <a href="./awesomeville.php">Awesome Ville</a>
-    </nav>
+    <?php
+      include "./nav.php"
+    ?>
   </header>
   <main>
     <div class="fancy-table">

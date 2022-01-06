@@ -5,14 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Semantic HTML</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <link rel="stylesheet" type="text/css" href="./styles/index.css">
 </head>
 <body>
-  <h1>Welcom to the page!</h1>
-  <nav>
-    <a href="./semantic_html.php">Semantic HTML Example</a>
-    <a href="./form_example.php">Form Example</a>
-  </nav>
+  <header>
+    <h1>Welcome to the page!</h1>
+    <?php
+      include "./nav.php"
+    ?>
+  </header>
+  <main>
+
+  </main>
 </body>
 </html>
 
