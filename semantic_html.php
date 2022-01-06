@@ -10,7 +10,7 @@
 <body>
   <header>
     <nav>
-      <a href="./awesomeville.php">Awesome Ville</a>
+      <a href="./index.php">Awesome Ville</a>
     </nav>
   </header>
   <main>
@@ -26,7 +26,7 @@
   <footer>
     <p>Information About this awesome website.</p>
   </footer>
-  <script type="text/javascript" src="./index.js"></script>
+  <script type="text/javascript" src="scripts/semantic.js"></script>
 </body>
 </html>
 

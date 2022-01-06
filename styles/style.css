@@ -7,6 +7,12 @@
   --black-primary: hsl(0, 0%, 15%);
 }
 
+body {
+  background-color: var(--black-primary);
+  color: white;
+}
+
+/* General purpose CSS for all pages. */
 .center {
   display: flex;
   flex-direction: column;
@@ -14,7 +20,7 @@
   align-items: center;
 }
 
-body {
-  background-color: var(--black-primary);
-  color: white;
+.hidden {
+  display: none;
 }
+
