@@ -9,12 +9,14 @@
 </head>
 <body>
   <header>
+    <!-- This was added here for easier navigation purpose. -->
     <?php
       include "./nav.php"
     ?>
   </header>
   <main>
     <div class="fancy-table">
+      <!-- This is the form example shown in class. -->
       <form action="./formhandle.php" method="POST">
         <legend>Basically the title for form.</legend>
 

@@ -9,6 +9,8 @@
   <link rel="stylesheet" type="text/css" href="./styles/index.css">
 </head>
 <body>
+  <!-- The only purpose of this page is easier
+        access to other pages. -->
   <header>
     <h1>Welcome to the page!</h1>
     <?php

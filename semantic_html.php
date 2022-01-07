@@ -1,3 +1,5 @@
+<!-- I kept it on the original state as this 
+    is an example for semantic HTML. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +12,8 @@
 <body>
   <header>
     <nav>
+      <!-- No proper nav bar was added as this is an example
+            of semantic HTML. This takes you to the main page. -->
       <a href="./index.php">Awesome Ville</a>
     </nav>
   </header>
